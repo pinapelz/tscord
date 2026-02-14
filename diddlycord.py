@@ -115,7 +115,7 @@ def update_discord_channel_name(clients):
 def main():
     clients = fetch_clients()
     edit_or_send_message(clients)
-    #update_discord_channel_name(clients)
+    update_discord_channel_name(clients)
 
 if __name__ == "__main__":
     main()
